@@ -178,7 +178,7 @@
             "name": "[variables('hackthonVnetSubnet1Name')]",
             "properties": {
               "addressPrefix": "[variables('hackthonVnetSubnet1Prefix')]",
-              " networkSecurityGroup": {
+              "networkSecurityGroup": {
                 "id": "[resourceId('Microsoft.Network/networkSecurityGroups', 'hackathonNetworkSecurityGroup')]"
               }
             }
