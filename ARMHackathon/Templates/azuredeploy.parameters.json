@@ -1,0 +1,27 @@
+﻿{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "hackathonVMName": {
+            "value": "armweb"
+        },
+        "hackathonVMAdminUserName": {
+            "value": "demouser"
+        },
+        "hackathonPublicIPDnsName": {
+            "value": "armhackipsasha"
+        },
+        "hackathonSqlVMName": {
+            "value": "armsql"
+        },
+        "hackathonSqlVMAdminUserName": {
+            "value": "demouser"
+        },
+        "hackathonVMAdminPassword": {
+            "value": "demo@pass1"
+        },
+        "hackathonSqlVMAdminPassword": {
+            "value": "demo@pass1"
+        }
+    }
+}
