@@ -22,6 +22,15 @@
         },
         "hackathonSqlVMAdminPassword": {
             "value": "demo@pass1"
+        },
+        "instanceCount": {
+            "value": "2"
+        },
+        "newStorageAccountSuffix": {
+            "value": "hackvmss"
+        },
+        "hackSqlPublicIPDnsName": {
+            "value": "hacksqldnsname"
         }
     }
 }
